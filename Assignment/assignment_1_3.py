@@ -28,3 +28,5 @@ def getFortune(var):
 PID = getPID()
 print(f'ผลรวมเลขบัตรประชาชนของคุณ : {sum(PID)}')
 print(f'ผลการทำนาย : {getFortune(sum(PID))}')
+
+print("Hello, MIT221")
