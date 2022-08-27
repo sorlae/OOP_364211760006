@@ -39,7 +39,7 @@ class Vehicle:
     print('รุ่นรถ:',model)
     print('สีรถ:',color)
     print('ความเร็วสูงสุด:',max_speed)
-    print('ราคา:',price)
+    print('ราคา:',price,'บาท')
     print('********************')
 
 
