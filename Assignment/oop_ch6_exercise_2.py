@@ -34,11 +34,13 @@ class Vehicle:
     color = input("สีรถ: ")
     max_speed = input("ความเร็วสูงสุด: ")
     price = int(input("ราคา : "))
-    print(brand)
-    print(model)
-    print(color)
-    print(max_speed)
-    print(price)
+    print('********************')
+    print('ยี่ห้อ:',brand)
+    print('รุ่นรถ:',model)
+    print('สีรถ:',color)
+    print('ความเร็วสูงสุด:',max_speed)
+    print('ราคา:',price)
+    print('********************')
 
 
 
