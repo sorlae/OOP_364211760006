@@ -1,8 +1,9 @@
 """
-Name: {Chinanat Sorlae}
-SID: {364211760006}
-Group: {MIT221}
+Name: Chinanat Sorlae
+ID: 364211760006
+Group: MIT221
 """
+
 """
 OOP Exercise Chapter 6
 
@@ -16,29 +17,24 @@ OOP Exercise Chapter 6
 2.จากข้อที่ 1 เขียนโปรแกรมเพื่อสร้างวัตถุ (object) จากคลาส Vehicle โดยรับข้อมูลจากผู้ใช้ตามคุณลักษณะ (attributes)ของคลาส
 จากนั้นแสดงข้อมูลทางหน้าจอภาพ
 
-15 นาที
+15 นาที;/;
 """
 
 class Vehicle:
+    #class attribute
+    my_vehicle = []
 
     def __init__(self,brand,model,color,max_speed,price):
-        # object attributes
         self.brand = brand
         self.model = model
         self.color = color
         self.max_speed = max_speed
         self.price = price
+        self.my_vehicle.append(self)
 
-    brand = input("ยี่ห้อรถ: ")
-    model = input("รุ่นรถ: ")
-    color = input("สีรถ: ")
-    max_speed = input("ความเร็วสูงสุด: ")
-    price = int(input("ราคา : "))
-    print(brand)
-    print(model)
-    print(color)
-    print(max_speed)
-    print(price)
-
-
-
+    def vehicle_detail(self):
+        print(f'Brand:{self.brand} '
+              f'Model:{self.model} '
+              f'Color:{self.color} '
+              f'Max_speed:{self.max_speed} '
+              f'Price:{self.price}')
