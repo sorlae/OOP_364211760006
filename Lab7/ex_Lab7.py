@@ -5,67 +5,67 @@ Group: MIT221
 """
 
 class Labtop:
-    def __init__(self,Brand,Model,CPU,RAM,Display,Storage,Price):
+    def __init__(self, brand, model, cpu, ram, display, storage, price):
         # attributes
         # private member
-        self.__Brand = Brand
-        self.__Model = Model
-        self.__CPU = CPU
-        self.__RAM = RAM
-        self.__Display = Display
-        self.__Storage = Storage
-        self.__Price = Price
+        self.__brand = brand
+        self.__model = model
+        self.__cpu = cpu
+        self.__ram = ram
+        self.__display = display
+        self.__storage = storage
+        self.__price = price
 
     # getter and setter Brand
-    def get_Brand(self):
-        return self.__Brand
-    def set_Brand(self,Brand):
-        self.__Brand = Brand
+    def get_brand(self):
+        return self.__brand
+    def set_brand(self,brand):
+        self.__brand = brand
 
     # getter and setter Model
-    def get_Model(self):
-        return self.__Model
-    def set_Model(self,Model):
-        self.__Model = Model
+    def get_model(self):
+        return self.__model
+    def set_model(self,model):
+        self.__model = model
 
     # getter and setter CPU
-    def get_CPU(self):
-        return self.__CPU
-    def set_CPU(self,CPU):
-        self.__CPU = CPU
+    def get_cpu(self):
+        return self.__cpu
+    def set_CPU(self,cpu):
+        self.__cpu = cpu
 
     # getter and setter RAM
-    def get_RAM(self):
-        return self.__RAM
-    def set_RAM(self,RAM):
-        self.__RAM = RAM
+    def get_ram(self):
+        return self.__ram
+    def set_ram(self,ram):
+        self.__ram = ram
 
     # getter and setter Display
-    def get_Display(self):
-        return self.__Display
-    def set_Display(self,Display):
-        self.__Display = Display
+    def get_display(self):
+        return self.__display
+    def set_display(self,display):
+        self.__display = display
 
     # getter and setter Storage
-    def get_Storage(self):
-        return self.__Storage
-    def set_Storage(self,Storage):
-        self.__Storage = Storage
+    def get_storage(self):
+        return self.__storage
+    def set_storage(self,storage):
+        self.__storage = storage
 
     # getter and setter Price
-    def get_Price(self):
-        return self.__Price
-    def set_Price(self,Price):
-        self.__Price = Price
+    def get_price(self):
+        return self.__price
+    def set_price(self,price):
+        self.__price = price
 
     def __str__(self):
-        print(f'Brand: {self.__Brand} '
-              f'Model: {self.__Model} '
-              f'CPU: {self.__CPU}'
-              f'RAM: {self.__RAM}'
-              f'Display: {self.__Display}'
-              f'Storage: {self.__Storage}'
-              f'Price: {self.__Price}')
+        print(f'Brand: {self.__brand} '
+              f'Model: {self.__model} '
+              f'CPU: {self.__cpu}'
+              f'RAM: {self.__ram}'
+              f'Display: {self.__display}'
+              f'Storage: {self.__storage}'
+              f'Price: {self.__price}')
 
 print("--------------------------------------")
 L = Labtop("ASUS","Vivobook 15X","Intel Core i5-12500H","8","15.6","512","27990")
@@ -73,26 +73,26 @@ L.__str__()
 
 print("--------------------------------------")
 
-L.set_Brand("Lenovo")
-print(L.get_Brand())
+L.set_brand("Lenovo")
+print(L.get_brand())
 
-L.set_Model("idelPad Garning 3")
-print(L.get_Model())
+L.set_model("idelPad Garning 3")
+print(L.get_model())
 
 L.set_CPU("Intel Core i5-11320H")
-print(L.get_CPU())
+print(L.get_cpu())
 
-L.set_RAM("9")
-print(L.get_RAM())
+L.set_ram("9")
+print(L.get_ram())
 
-L.set_Display("16.5")
-print(L.get_Display())
+L.set_display("16.5")
+print(L.get_display())
 
-L.set_Storage("513")
-print(L.get_Storage())
+L.set_storage("513")
+print(L.get_storage())
 
-L.set_Price("25990")
-print(L.get_Price())
+L.set_price("25990")
+print(L.get_price())
 
 print("--------------------------------------")
 
