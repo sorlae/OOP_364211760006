@@ -1,7 +1,7 @@
 """
-Name : {}
-ID: {}
-Group: {}
+Name: {Chinanat Sorlae}
+SID: {364211760006}
+Group: {MIT221}
 """
 
 from model import Student,Vaccine,VaccinatedPassport,Employee
